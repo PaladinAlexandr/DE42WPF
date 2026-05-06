@@ -258,3 +258,7 @@ C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\refint\DE42
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\DE42WPF.pdb
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\DE42WPF.genruntimeconfig.cache
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\ref\DE42WPF.dll
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddProductWindow.g.cs
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\EditProductWindow.g.cs
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddProductWindow.baml
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\EditProductWindow.baml

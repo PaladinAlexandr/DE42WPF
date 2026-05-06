@@ -20,6 +20,7 @@
             <ComboBoxItem Content="Kari"/>
             <ComboBoxItem Content="Обувь для вас"/>
         </ComboBox>
+        <Button Content="Добавить товар" HorizontalAlignment="Left" Margin="540,66,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click"/>
 
     </Grid>
 </Window>

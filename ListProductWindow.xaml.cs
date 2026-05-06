@@ -102,5 +102,11 @@ namespace DE42WPF
             ProductListBox.Items.Clear();
             newProducts.ForEachAsync(item => ProductListBox.Items.Add(new ProductControl(item)));
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new AddProductWindow().Show();
+            Close();
+        }
     }
 }
