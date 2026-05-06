@@ -23,34 +23,41 @@ namespace DE42WPF
             InitializeComponent();
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var DB = new PaladinDe42Context();
-            var users = DB.Users;
-            var login = UserLoginBox.Text;
-            var password = UserPasswordBox.Password;
-            var User = users.Where(x => x.Login == login
-            && x.Password == password).FirstOrDefault();
-
-            User = new PaladinDe42Context()
-                 .Users.Where(x => x.Login == UserLoginBox.Text
-                 && x.Password == UserPasswordBox.Password)
-                 .FirstOrDefault();
-
-            
-            if(User != null)
+            try
             {
-                MessageBox.Show("Вы успешно авторизировались");
-                UserSingleton.GetUser = User;
-                new ListProductWindow().Show();
-                Close();
-            }
-            else
-            {
-                MessageBox.Show("Неверный логин и пароль!", "Ошибка!",
-                    MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+                var DB = new PaladinDe42Context();
+                var users = DB.Users;
+                var login = UserLoginBox.Text;
+                var password = UserPasswordBox.Password;
+                var User = users.Where(x => x.Login == login
+                && x.Password == password).FirstOrDefault();
 
+                User = new PaladinDe42Context()
+                     .Users.Where(x => x.Login == UserLoginBox.Text
+                     && x.Password == UserPasswordBox.Password)
+                     .FirstOrDefault();
+
+
+                if (User != null)
+                {
+                    MessageBox.Show("Вы успешно авторизировались");
+                    UserSingleton.GetUser = User;
+                    new ListProductWindow().Show();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин и пароль!", "Ошибка!",
+                        MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Произошла ошибка");
+            }
 
         }
     }

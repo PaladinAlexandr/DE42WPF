@@ -49,8 +49,7 @@ namespace DE42WPF
             if (product.Photo != null)
             {
                 PhotoProductImage.Source = new BitmapImage(
-                    new Uri($"C:\\Users\\1\\Documents\\GitHub" +
-                    $"\\KIRICHENKO-ILINA-BAKIROVA\\DE42WPF\\Resources\\{product.Photo}"));
+                    new Uri($"C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\Resources\\{product.Photo}"));
             }
         }
     }

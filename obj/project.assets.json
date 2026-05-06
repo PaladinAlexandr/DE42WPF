@@ -4009,11 +4009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Documents\\GitHub\\KIRICHENKO-ILINA-BAKIROVA\\DE42WPF\\DE42WPF.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\DE42WPF.csproj",
       "projectName": "DE42WPF",
-      "projectPath": "C:\\Users\\1\\Documents\\GitHub\\KIRICHENKO-ILINA-BAKIROVA\\DE42WPF\\DE42WPF.csproj",
+      "projectPath": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\DE42WPF.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Documents\\GitHub\\KIRICHENKO-ILINA-BAKIROVA\\DE42WPF\\obj\\",
+      "outputPath": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
