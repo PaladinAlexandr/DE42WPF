@@ -8,17 +8,32 @@
         FontSize="10"
         Title="EditProductWindow" Height="450" Width="800">
     <Grid Margin="0,0,0,-6">
-        <Border BorderBrush="Black" BorderThickness="5" Margin="0,0,0,289">
+        <Border BorderBrush="Black" BorderThickness="5" Margin="0,0,0,200">
             <Grid >
                 <Border BorderBrush="Black" BorderThickness="2" Margin="10,10,621,10">
                     <Image  x:Name="PhotoProductImage" Source="/picture.png"/>
                 </Border>
                 <Border BorderBrush="Black" BorderThickness="1" Margin="174,10,115,10">
                     <StackPanel>
-                        <TextBox x:Name="NameCategoryTextBox"  TextWrapping="Wrap" Text="TextBox" FontWeight="Bold"/>
+                        <TextBox x:Name="NameTextBox"  TextWrapping="Wrap" Text="TextBox" FontWeight="Bold"/>
+                        <ComboBox x:Name="CategoryTextBox" Text="TextBox" FontWeight="Bold">
+                            <ComboBoxItem Content="Женская обувь"></ComboBoxItem>
+                            <ComboBoxItem Content="Мужская обувь"></ComboBoxItem>
+                        </ComboBox>
+                        <TextBox x:Name="ArticleTextBox"  TextWrapping="Wrap" Text="TextBox" FontWeight="Bold"/>
                         <TextBox x:Name="DescriptionTextBox" TextWrapping="Wrap" Text="TextBox"/>
-                        <TextBox x:Name="ManufactureTextBox" TextWrapping="Wrap" Text="TextBox"/>
-                        <TextBox x:Name="SupplierTextBox" TextWrapping="Wrap" Text="TextBox"/>
+                        <ComboBox x:Name="ManufactureTextBox" Text="TextBox">
+                            <ComboBoxItem Content="Kari"></ComboBoxItem>
+                            <ComboBoxItem Content="Marco Tozzi"></ComboBoxItem>
+                            <ComboBoxItem Content="CROSBY"></ComboBoxItem>
+                            <ComboBoxItem Content="Poc"></ComboBoxItem>
+                            <ComboBoxItem Content="Rieker"></ComboBoxItem>
+                            <ComboBoxItem Content="Alessio Nesca"></ComboBoxItem>
+                        </ComboBox>
+                        <ComboBox x:Name="SupplierTextBox" >
+                            <ComboBoxItem Content="Kari"></ComboBoxItem>
+                            <ComboBoxItem Content="Обувь для вас"></ComboBoxItem>
+                        </ComboBox>
                         <TextBox x:Name="PriceTextBox" TextWrapping="Wrap" Text="TextBox">
 
                         </TextBox>
@@ -40,6 +55,6 @@
             </Grid>
 
         </Border>
-        <Button Content="Редактировать" HorizontalAlignment="Left" Height="50" Margin="49,208,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Редактирование" HorizontalAlignment="Left" Height="50" Margin="52,283,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click" />
     </Grid>
 </Window>

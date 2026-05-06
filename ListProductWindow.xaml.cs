@@ -108,5 +108,12 @@ namespace DE42WPF
             new AddProductWindow().Show();
             Close();
         }
+
+        private void ProductListBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var productControl = (ProductControl)ProductListBox.SelectedItem;
+
+            new EditProductWindow(productControl.thisProduct).Show();
+        }
     }
 }

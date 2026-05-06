@@ -21,8 +21,10 @@ namespace DE42WPF
     /// </summary>
     public partial class ProductControl : UserControl
     {
+        public Product thisProduct;
         public ProductControl(Product product)
         {
+            thisProduct = product;
             InitializeComponent();
             NameCategoryTextBlock.Text = $"{product.Category}|{product.Name}";
             DescriptionTextBlock.Text = $"{product.Description}";

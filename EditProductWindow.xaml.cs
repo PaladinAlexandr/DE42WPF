@@ -19,9 +19,28 @@ namespace DE42WPF
     /// </summary>
     public partial class EditProductWindow : Window
     {
-        public EditProductWindow()
+        public EditProductWindow(Product product)
         {
             InitializeComponent();
+            NameTextBox.Text = $"{product.Name}";
+            CategoryTextBox.Text = $"{product.Category}";
+            DescriptionTextBox.Text = $"{product.Description}";
+            SupplierTextBox.SelectedIndex = (int)product.Supplier;
+            ManufactureTextBox.SelectedIndex = (int)product.Manufacture;
+            UnitMetricTextBox.Text = $"{product.UnitMetric}";
+            AmountTextBox.Text = $"{product.Amount}";
+            DiscountTextBox.Text = $"{product.Discount}";
+            PriceTextBox.Text = $"{product.Price}";
+            if (product.Photo != null)
+            {
+                PhotoProductImage.Source = new BitmapImage(
+                    new Uri($"C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\Resources\\{product.Photo}"));
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

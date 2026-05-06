@@ -8,7 +8,7 @@
         Title="ListProductWindow" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="FullnameTextBlock" HorizontalAlignment="Right"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="24" Width="277"/>
-        <ListBox x:Name="ProductListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,111,0,0"/>
+        <ListBox MouseDoubleClick="ProductListBox_MouseDoubleClick" x:Name="ProductListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,111,0,0"/>
         <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="18,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="343" TextChanged="TextBox_TextChanged"/>
         <ComboBox x:Name="SortComboBox" HorizontalAlignment="Left" Margin="376,32,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBoxItem Content="По возрастанию"/>
