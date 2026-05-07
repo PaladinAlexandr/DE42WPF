@@ -56,5 +56,6 @@
 
         </Border>
         <Button Content="Редактирование" HorizontalAlignment="Left" Height="50" Margin="52,283,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click" />
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="652,297,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
     </Grid>
 </Window>

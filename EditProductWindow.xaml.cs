@@ -19,8 +19,10 @@ namespace DE42WPF
     /// </summary>
     public partial class EditProductWindow : Window
     {
+        Product thisProduct;
         public EditProductWindow(Product product)
         {
+            thisProduct = product;
             InitializeComponent();
             NameTextBox.Text = $"{product.Name}";
             CategoryTextBox.Text = $"{product.Category}";
@@ -36,11 +38,65 @@ namespace DE42WPF
                 PhotoProductImage.Source = new BitmapImage(
                     new Uri($"C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\Resources\\{product.Photo}"));
             }
-        }
 
+
+        }
+        public string Validate()
+        {
+            string result = "";
+            if (double.TryParse(PriceTextBox.Text, out double price) == false)
+            {
+                result += "\nЦена должна быть числом";
+            }
+            else if (price < 0)
+            {
+                result += "\nЦена должна быть положительной";
+            }
+            if (int.TryParse(AmountTextBox.Text, out int amount) == false)
+            {
+                result += "\nКоличество должно быть числом";
+            }
+            else if (amount < 0)
+            {
+                result += "\nКоличество должно быть положительным";
+            }
+
+            return result;
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string result = Validate();
+            if (result != "")
+            {
+                MessageBox.Show(result);
+                return;
+            }
 
+            var DB = new PaladinDe42Context();
+            var currentProduct = DB.Products.Where(x => x.Id == thisProduct.Id).FirstOrDefault();
+            if (currentProduct == null) return;
+
+            currentProduct.Name = NameTextBox.Text;
+            currentProduct.Article = ArticleTextBox.Text;
+            currentProduct.Category = CategoryTextBox.Text;
+            currentProduct.Description = DescriptionTextBox.Text;
+            currentProduct.Discount = double.Parse(DiscountTextBox.Text);
+            currentProduct.Amount = int.Parse(AmountTextBox.Text);
+            currentProduct.Price = decimal.Parse(PriceTextBox.Text);
+            currentProduct.Supplier = SupplierTextBox.SelectedIndex + 1;
+            currentProduct.Manufacture = ManufactureTextBox.SelectedIndex + 1;
+            currentProduct.UnitMetric = UnitMetricTextBox.Text;
+
+
+            DB.SaveChanges();
+            MessageBox.Show("Продукт успешно отредактирован");
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            new ListProductWindow().Show();
+            Close();
         }
     }
 }

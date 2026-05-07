@@ -114,6 +114,7 @@ namespace DE42WPF
             var productControl = (ProductControl)ProductListBox.SelectedItem;
 
             new EditProductWindow(productControl.thisProduct).Show();
+            Close();
         }
     }
 }
