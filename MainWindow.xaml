@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DE42WPF"
         mc:Ignorable="d"
-        Height="1080"
-        Width="1920"
+        Height="266"
+        Width="316"
         Title="MainWindow">
     <Grid>
-        <Button Content="Войти как гость" HorizontalAlignment="Left" Margin="991,766,0,0" VerticalAlignment="Top" Height="50" Width="183" FontSize="20" Click="Button_Click"/>
-        <Button Content="Авторизироваться" HorizontalAlignment="Left" Margin="991,670,0,0" VerticalAlignment="Top" Height="50" Width="184" FontSize="20"></Button>
-        <TextBox x:Name="UserLoginBox"  FontSize="24" HorizontalAlignment="Left" Margin="960,559,0,0" TextWrapping="Wrap" Text="94d5ous@gmail.com" VerticalAlignment="Top" Width="246" Height="37"/>
-        <PasswordBox x:Name="UserPasswordBox" FontSize="24"  Password="uzWC67" HorizontalAlignment="Left" Margin="961,601,0,0" VerticalAlignment="Top" Width="246" Height="37"/>
-
+        <StackPanel>
+            <TextBox x:Name="UserLoginBox"  FontSize="24" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="94d5ous@gmail.com" VerticalAlignment="Top" Width="246" Height="37"/>
+            <PasswordBox x:Name="UserPasswordBox" FontSize="24"  Password="uzWC67" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="246" Height="37"/>
+            <Button Content="Войти как гость" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="183" FontSize="20" Click="Button_Click"/>
+            <Button Content="Авторизироваться" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="50" Width="184" FontSize="20"></Button>
+        </StackPanel>
     </Grid>
 </Window>

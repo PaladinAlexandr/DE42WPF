@@ -36,12 +36,24 @@ namespace DE42WPF
                         $" {UserSingleton.GetUser.Name}" +
                         $" {UserSingleton.GetUser.Patronymic}";
                 }
+                if (UserSingleton.GetUser.Role == 2)
+                {
+                    SearchTextBox.Visibility = Visibility.Hidden;
+                    AddProductButton.Visibility = Visibility.Hidden;
+                    FilterComboBox.Visibility = Visibility.Hidden;
+                    SortComboBox.Visibility = Visibility.Hidden;
+                }
+                if (UserSingleton.GetUser.Role == 3)
+                {
+                    AddProductButton.Visibility = Visibility.Hidden;
+                }
 
                 var DB = new PaladinDe42Context();
                 Products = DB.Products.Include(x => x.SupplierNavigation).Include(x => x.ManufactureNavigation);
 
 
                 Products.ForEachAsync(item => ProductListBox.Items.Add(new ProductControl(item)));
+
 
 
             }
@@ -111,9 +123,24 @@ namespace DE42WPF
 
         private void ProductListBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
+            if (UserSingleton.GetUser.Role != 1) return;
+
             var productControl = (ProductControl)ProductListBox.SelectedItem;
 
             new EditProductWindow(productControl.thisProduct).Show();
+            Close();
+        }
+
+        private void DeleteProductButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            var productControl = (ProductControl)ProductListBox.SelectedItem;
+            var DB = new PaladinDe42Context();
+            var currentProduct = DB.Products.Where(x => x.Id == productControl.thisProduct.Id).FirstOrDefault();
+            DB.Products.Remove(currentProduct);
+            DB.SaveChanges();
+
+            new ListProductWindow().Show();
             Close();
         }
     }

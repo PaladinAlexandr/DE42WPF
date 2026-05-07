@@ -52,6 +52,14 @@ namespace DE42WPF
             {
                 result += "\nЦена должна быть положительной";
             }
+            if (double.TryParse(DiscountTextBox.Text, out double Discount) == false)
+            {
+                result += "\nСкидка должна быть числом";
+            }
+            else if (Discount < 0 && Discount > 100)
+            {
+                result += "\nСкидка должна быть от 0 до 100%";
+            }
             if (int.TryParse(AmountTextBox.Text, out int amount) == false)
             {
                 result += "\nКоличество должно быть числом";

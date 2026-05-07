@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\listproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:listproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\productcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:productcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\listproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:listproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\productcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:productcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5F20888-53F5-408B-AAE2-A6A670B9BAAA}|DE42WPF.csproj|c:\\users\\1\\documents\\github\\de42wpf\\de42wpf\\usersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +62,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 109,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AddProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\AddProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "AddProductWindow.xaml.cs",
@@ -75,41 +79,36 @@
               "ViewState": "AgIAABoAAAAAAAAAAAA4wC8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T11:19:38.345Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EditProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\EditProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "EditProductWindow.xaml.cs",
               "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\EditProductWindow.xaml.cs",
               "RelativeToolTip": "EditProductWindow.xaml.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwGEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwGEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T11:19:29.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EditProductWindow.xaml",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\EditProductWindow.xaml",
               "RelativeDocumentMoniker": "EditProductWindow.xaml",
-              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\EditProductWindow.xaml*",
-              "RelativeToolTip": "EditProductWindow.xaml*",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\EditProductWindow.xaml",
+              "RelativeToolTip": "EditProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-06T11:08:24.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AddProductWindow.xaml",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\AddProductWindow.xaml",
               "RelativeDocumentMoniker": "AddProductWindow.xaml",
@@ -121,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductControl.xaml",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ProductControl.xaml",
               "RelativeDocumentMoniker": "ProductControl.xaml",
@@ -132,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -144,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ProductControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ProductControl.xaml.cs",
               "RelativeDocumentMoniker": "ProductControl.xaml.cs",
@@ -152,25 +151,24 @@
               "RelativeToolTip": "ProductControl.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwBcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T08:35:59.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T08:35:59.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ListProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ListProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "ListProductWindow.xaml.cs",
               "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ListProductWindow.xaml.cs",
               "RelativeToolTip": "ListProductWindow.xaml.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAcwGkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAADgv4oAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T08:19:28.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -178,29 +176,32 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAADgvx4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T08:19:16.917Z"
+              "WhenOpened": "2026-05-06T08:19:16.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-06T08:19:10.808Z"
+              "WhenOpened": "2026-05-06T08:19:10.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ListProductWindow.xaml",
               "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ListProductWindow.xaml",
               "RelativeDocumentMoniker": "ListProductWindow.xaml",
               "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\DE42WPF\\DE42WPF\\ListProductWindow.xaml",
               "RelativeToolTip": "ListProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-06T08:19:05.945Z"
+              "WhenOpened": "2026-05-06T08:19:05.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
