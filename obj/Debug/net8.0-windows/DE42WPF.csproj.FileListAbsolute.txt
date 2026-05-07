@@ -262,3 +262,7 @@ C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddProductW
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\EditProductWindow.g.cs
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddProductWindow.baml
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\EditProductWindow.baml
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\ListOrderWindow.g.cs
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\OrderControl.g.cs
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\ListOrderWindow.baml
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\OrderControl.baml

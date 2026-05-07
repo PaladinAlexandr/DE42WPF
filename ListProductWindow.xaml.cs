@@ -134,13 +134,28 @@ namespace DE42WPF
         private void DeleteProductButton_Click(object sender, RoutedEventArgs e)
         {
 
+            var resultMessageBox = MessageBox.Show("ВЫ ТОЧНО ХОТИТЕ УДАЛИТЬ ЭТОТ ТОВАР? ОБРАТНОГО ПУТИ НЕ БУДЕТ!",
+                "Удаление товара", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (resultMessageBox == MessageBoxResult.No) return;
+
             var productControl = (ProductControl)ProductListBox.SelectedItem;
             var DB = new PaladinDe42Context();
             var currentProduct = DB.Products.Where(x => x.Id == productControl.thisProduct.Id).FirstOrDefault();
+            if (DB.OrderProducts.Where(x => x.Product == currentProduct.Id).Any())
+            {
+                MessageBox.Show("Нельзя удалить товар, присутствующий в заказе");
+
+            }
             DB.Products.Remove(currentProduct);
             DB.SaveChanges();
 
             new ListProductWindow().Show();
+            Close();
+        }
+
+        private void OrderButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ListOrderWindow().Show();
             Close();
         }
     }

@@ -8,7 +8,13 @@
     <Compile Update="EditProductWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ListOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ListProductWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ProductControl.xaml.cs">

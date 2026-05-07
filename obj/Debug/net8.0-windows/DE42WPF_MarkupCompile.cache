@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\App.xaml
-5-851681319
+7259518613
 
-181127373741
+20137349123
 227275144805
-AddProductWindow.xaml;EditProductWindow.xaml;ListProductWindow.xaml;MainWindow.xaml;ProductControl.xaml;
+AddProductWindow.xaml;EditProductWindow.xaml;ListOrderWindow.xaml;ListProductWindow.xaml;MainWindow.xaml;OrderControl.xaml;ProductControl.xaml;
 
 False
 
