@@ -266,3 +266,5 @@ C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\ListOrderWi
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\OrderControl.g.cs
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\ListOrderWindow.baml
 C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\OrderControl.baml
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddOrderWindow.g.cs
+C:\Users\1\Documents\GitHub\DE42WPF\DE42WPF\obj\Debug\net8.0-windows\AddOrderWindow.baml

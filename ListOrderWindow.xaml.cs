@@ -40,7 +40,8 @@ namespace DE42WPF
 
         private void AddOrderButton_Click(object sender, RoutedEventArgs e)
         {
-
+            new AddOrderWindow().Show();
+            Close();
         }
 
         private void DeleteOrderButton_Click(object sender, RoutedEventArgs e)

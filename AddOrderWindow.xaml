@@ -1,0 +1,33 @@
+﻿<Window x:Class="DE42WPF.AddOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DE42WPF"
+        mc:Ignorable="d"
+        Title="AddOrderWindow" Height="450" Width="800">
+    <Grid>
+
+        <Border BorderBrush="Black" BorderThickness="2" Height="150" Width="800">
+            <Grid >
+                <Border BorderBrush="Black" BorderThickness="2" Margin="630,10,10,10">
+                    <TextBox x:Name="DateDeliveryTextBox" TextWrapping="Wrap" Text="Дата доставки" Margin="8,23,0,0"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" Margin="10,10,181,10">
+                    <StackPanel Margin="9,9,0,3">
+                        <TextBox  x:Name="ArticleOrderTextBox" TextWrapping="Wrap" Text="Артикул"/>
+                        <TextBox x:Name="AmountOrderTextBox" TextWrapping="Wrap" Text="Количество"/>
+                        <ComboBox x:Name="StatusOrderTextBox" Text="Статус">
+                            <ComboBoxItem Content="Завершен"></ComboBoxItem>
+                            <ComboBoxItem Content="Новый"></ComboBoxItem>
+                        </ComboBox>
+                        <TextBox x:Name="AddressPickPointTextBox" TextWrapping="Wrap" Text="Пункт выдачи"/>
+                        <TextBox x:Name="DateOrderTextBox" TextWrapping="Wrap" Text="Дата заказа"/>
+                    </StackPanel>
+                </Border>
+
+            </Grid>
+        </Border>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="21" Width="76" Click="Button_Click"/>
+    </Grid>
+</Window>
