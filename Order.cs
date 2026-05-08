@@ -22,4 +22,6 @@ public partial class Order
     public virtual PickPoint? AddressNavigation { get; set; }
 
     public virtual User? ClientNavigation { get; set; }
+
+    public virtual ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
 }

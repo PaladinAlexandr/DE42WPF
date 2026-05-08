@@ -50,8 +50,7 @@ namespace DE42WPF
             orderProduct.NumberOrder = newOrder.Id;
             orderProduct.Amount = int.Parse(AmountOrderTextBox.Text);
             orderProduct.Product = product.Id;
-            orderProduct.NumberOrderNavigation = newOrder;
-            orderProduct.ProductNavigation = product;
+            orderProduct.Id = DB.OrderProducts.Max(x => x.Id) + 1;
 
             DB.Orders.Add(newOrder);
             DB.SaveChanges();

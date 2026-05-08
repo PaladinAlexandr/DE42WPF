@@ -25,7 +25,7 @@ namespace DE42WPF
             InitializeComponent();
 
             var DB = new PaladinDe42Context();
-            var orders = DB.Orders.Include(x=>x.AddressNavigation);
+            var orders = DB.Orders.Include(x => x.AddressNavigation);
             foreach (var order in orders)
             {
                 OrderListBox.Items.Add(new OrderControl(order));
@@ -40,7 +40,7 @@ namespace DE42WPF
 
         private void AddOrderButton_Click(object sender, RoutedEventArgs e)
         {
-            new AddOrderWindow().Show();
+           new AddOrderWindow().Show();
             Close();
         }
 

@@ -69,15 +69,17 @@ public partial class PaladinDe42Context : DbContext
 
         modelBuilder.Entity<OrderProduct>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("OrderProduct");
+            entity.ToTable("OrderProduct");
 
-            entity.HasOne(d => d.NumberOrderNavigation).WithMany()
+            entity.Property(e => e.Id)
+                .ValueGeneratedNever()
+                .HasColumnName("ID");
+
+            entity.HasOne(d => d.NumberOrderNavigation).WithMany(p => p.OrderProducts)
                 .HasForeignKey(d => d.NumberOrder)
                 .HasConstraintName("FK_OrderProduct_Order");
 
-            entity.HasOne(d => d.ProductNavigation).WithMany()
+            entity.HasOne(d => d.ProductNavigation).WithMany(p => p.OrderProducts)
                 .HasForeignKey(d => d.Product)
                 .HasConstraintName("FK_OrderProduct_Product");
         });

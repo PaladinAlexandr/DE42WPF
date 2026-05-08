@@ -11,6 +11,8 @@ public partial class OrderProduct
 
     public int? Amount { get; set; }
 
+    public int Id { get; set; }
+
     public virtual Order? NumberOrderNavigation { get; set; }
 
     public virtual Product? ProductNavigation { get; set; }

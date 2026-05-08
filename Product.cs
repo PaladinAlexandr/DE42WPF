@@ -31,5 +31,7 @@ public partial class Product
 
     public virtual Manufacture? ManufactureNavigation { get; set; }
 
+    public virtual ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
+
     public virtual Supplier? SupplierNavigation { get; set; }
 }
